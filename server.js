@@ -3,7 +3,7 @@ const app = express()
 const port = 4500;
 const calc = require('./routes/calc')
 
-app.use(express.static('public'))
+app.use(express.static(__dirname + "/public"))
 app.use(calc)
 
 app.listen(port, () => {

@@ -6,10 +6,6 @@ const power = (num1, num2) => num1 ** num2;
 const squareRoot = (num) => Math.sqrt(num)
 const metode = (num1, num2, operator) => operator(num1, num2)
 
-let angka1 = document.querySelector('.angka1')
-console.log(angka1)
-
-
 let operator;
 
 $('.operator').click(function () {

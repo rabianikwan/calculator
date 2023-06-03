@@ -7,11 +7,11 @@ router.get('/', (req, res) => {
 });
 router.get('/calculator', (req, res) => {
     res.status(200)
-        .sendFile('index.html')
+        .sendFile(path.join(__dirname, '../', 'templates/', 'index.html'))
 })
 router.get('/bmi-calculator', (req, res) => {
     res.status(200)
-        .sendFile('bmi-calc.html')
+        .sendFile(path.join(__dirname, '../', 'templates/', 'bmi-calc.html'))
 })
 
 module.exports = router;
