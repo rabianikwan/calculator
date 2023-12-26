@@ -1,0 +1,3 @@
+[submodule "kalkulator"]
+	path = kalkulator
+	url = https://github.com/rabianikwan/calculator.git
